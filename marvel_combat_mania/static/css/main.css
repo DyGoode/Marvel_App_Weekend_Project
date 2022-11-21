@@ -1,0 +1,146 @@
+/*Nav Styles */
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Target Main Logo Image */
+.ct-nav img{
+    width: 25%;
+    max-width: 100%;
+    margin-left: 2vw;
+}
+
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display:inline;
+    text-decoration:none;
+    padding: 0.5vw;
+    color:black;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid rgba(33, 42, 201, 0.946);
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+/* End of Nav Styles */
+
+
+/* Start of Hero/Header Section */
+#header-text{
+    padding: 2vw;
+}
+
+.header-image{
+    width: 82%;
+    max-width: 100%;
+}
+/* End of Hero/Header Section */
+
+
+/* Start of Middle Section */
+/* Start of Middle Section Styles */
+#middle-text{
+    text-align: center;
+    padding: 13vh;
+}
+
+#middle-text h2{
+    padding:1.5vw;
+}
+/* End of Middle Section */
+
+/* Start of Features Section Styles */
+#api-image,#graphql-image,#database-image{
+    margin-bottom: 10vh;
+}
+
+#features-section{
+    margin: 8vw;
+}
+/* End of Features Section */
+
+/* Community Section Styles */
+.icon-image{
+    width: 50%;
+    max-width: 75%;
+    margin-left: 3vw;
+}
+/* End of Community Section */
+
+/* Footer Section Styles */
+.footer-text-flex{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+
+#footer-logo{
+    width:100%;
+    max-width:100%;
+}
+
+#footer{
+    border-top: 3px solid black;
+    margin-top: 20vh;
+}
+
+
+/* Profile Styles */
+.hero-section{
+    height: 95vh;
+    background-image:linear-gradient(to right bottom, rgba(33, 42, 201, 0.946), rgba(33, 4, 114, 0.854)), url(../css/images/mcm_hero.PNG);
+    background-size: cover;
+    background-position: 35% 50%;
+    -webkit-clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    position: relative;
+}
+
+.header-text{
+    display:flex;
+    justify-content: center;
+    padding-top: 20%;
+    color: rgb(0, 0, 0);
+}
+
+.btn{
+    background-color: rgba(33, 42, 201, 0.946);
+}
+
+#connection{
+    text-align: center;
+}
+
+body{
+    font-family: montserrat;
+}
+ 
+
+#tiptop h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+    margin-bottom: 10px;
+    /** add color: white; **/
+}
+
+#tiptop h2{
+    text-align: center;
+    font-size: 30px;
+    /** add color: white; **/
+}
+
+#tiptop h6{
+    text-align: center;
+    /** add color: white; **/
+}
+
