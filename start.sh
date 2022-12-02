@@ -1,0 +1,1 @@
+gunicorn "marvel_combat_mania:app"
