@@ -25,7 +25,7 @@ def signup():
 
             flash(f"You have successfully created a user account {email}", "user-created")
 
-            return redirect(url_for('site.signin'))
+            return redirect(url_for('auth.signin'))
     
     except:
         raise Exception('Invalid Form Data: Please check your Form')
